@@ -4,7 +4,7 @@ Hack LAUNDRYNET
 
 ## これは何?
 
-LAUNDRYNET([https://www.coin-laundry.co.jp/])を扱う奴。
+[LAUNDRYNET](https://www.coin-laundry.co.jp/)を扱う奴。
 
 ## 取れる情報
 
