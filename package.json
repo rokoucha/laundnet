@@ -1,0 +1,29 @@
+{
+  "author": "Rokoucha <rokoucha@rokoucha.net>",
+  "license": "Apache-2.0",
+  "main": "dist/index.js",
+  "name": "laundnet",
+  "private": true,
+  "repository": "ssh://git@github.com/rokoucha/laundnet.git",
+  "version": "1.0.0",
+  "dependencies": {
+    "jsdom": "^16.2.2",
+    "node-fetch": "^2.6.0",
+    "tough-cookie": "^4.0.0"
+  },
+  "devDependencies": {
+    "@types/jsdom": "^16.2.1",
+    "@types/node": "^13.13.4",
+    "@types/node-fetch": "^2.5.7",
+    "@types/tough-cookie": "^4.0.0",
+    "prettier": "^2.0.5",
+    "transform-ts": "^0.3.0",
+    "typescript": "^3.8.3"
+  },
+  "scripts": {
+    "build": "tsc",
+    "dev": "yarn run build && yarn run start",
+    "format": "prettier --write \"./**/*.{js,ts,json}\"",
+    "start": "node dist/index.js"
+  }
+}
